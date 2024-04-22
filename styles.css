@@ -1,0 +1,79 @@
+
+body {
+    transition: background-color 0.5s ease;
+    background-image: url('Image/background_image.jpg');
+    background-repeat: repeat;
+}
+.inversed-background{
+  background-image: url('Image/background-inversed.png') !important;
+}
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .text-orange {
+    color: orange !important; 
+  }
+
+  .bg-opacity-50 {
+    background-color: rgba(0, 0, 0, 0.8) !important; 
+  }
+
+  .container2 {
+    position: relative;
+  }
+  
+  .image-container {
+    position: absolute;
+    top: 50px;
+  }
+
+  .fixed-size-div {
+    width: 70%; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+  }
+
+  .max-with-portail{
+    max-width: 30%;
+  }
+
+  #text {
+    white-space: pre-line;
+}
+
+.core_gauche{
+position: relative;
+}
+
+.core_droite{
+position: relative;
+}
+
+.holograme{
+    position: absolute;
+    opacity: 0.85 !important;
+    z-Index: 2;
+    top: 10;
+    width: 30%;
+    height: auto;
+    left: auto;
+}
+
+.the_cake_is_a_lie{
+    font-family: "Shadows Into Light", cursive;
+}
+
+.colorInverter {
+  filter: invert(100%);
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .textMobile {
+      font-size: 10px;
+  }
+}

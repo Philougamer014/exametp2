@@ -1,0 +1,48 @@
+body {
+    color: #fff;
+    font-family: 'Arial', sans-serif; 
+    background-image: url('Image/background2.jpg');
+    background-size: cover;
+}
+
+.container {
+    max-width: 70%;
+    background-color: #1C1C1C;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.form-control {
+    background-color: #333;
+    border: 1px solid #777;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #0b67cd; 
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #094a8f;
+}
+
+label {
+    color: #9dbbf2;
+}
+
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .text-orange {
+    color: orange !important; 
+  }
+
+  .bg-opacity-50 {
+    background-color: rgba(0, 0, 0, 0.8) !important; 
+  }
